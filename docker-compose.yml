@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   headscale:
-    image: headscale/headscale:0.27.1
+    image: headscale/headscale:0.27.1-debug
     container_name: headscale
     restart: unless-stopped
 
